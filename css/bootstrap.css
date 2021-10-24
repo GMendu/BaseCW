@@ -11436,17 +11436,30 @@ body{
 }
 
 .user-container{
+  border-radius: 20px;
   float: right;
   background-color: #2a8ee0;
   width: 350px;
   height: 95px;
 }
 
+.user-container:hover{
+  background-color: #2a8ee09f;
+  font-style: italic;
+}
+
+.user-info{
+  float: left;
+  width:255px;
+  height:95px;
+  padding: 20px;
+}
+
 .user-image{
   float: right;
   width: 75px;
   height: 75px;
-
+  margin: 10px;
 }
 .user-image img{
   max-height: 75px;
